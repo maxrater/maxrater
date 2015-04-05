@@ -1,0 +1,16 @@
+HTTP verbs and routes for:
+
+- a page with the form to create a new item
+GET '/items/new'
+- a route to create a new item
+POST '/items'
+- a page to see all of the new items
+GET '/items'
+- a page with a form to update an existing item
+GET '/items/:id/edit'
+- a route to update the item
+PUT 'items/:id'
+- a page to see an existing item
+GET '/items/:id'
+- a route to delete the item
+DELETE 'items/:id'
