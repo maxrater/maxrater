@@ -1,5 +1,7 @@
-h1 {
+.name {
   text-align: center;
+  font-size: 24px;
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 }
 
 .social {
