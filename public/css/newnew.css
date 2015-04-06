@@ -1,10 +1,35 @@
 .name {
+  margin-top: 100px;
+  font-family: AkzidenzGrotesk;
   text-align: center;
-  font-size: 24px;
-  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+  font-size: 100px;
+  opacity: 50px;
 }
 
 .social {
-  margin-top: 400px;
   text-align: center;
+  -moz-transform:scale(3);
+  -webkit-transform:scale(3);
+  transform:scale(3);
+}
+
+.picture {
+  margin-left: 750px;
+  margin-top: -430px;
+  text-align: center;
+  width: 650px;
+  height: 650px;
+  background-size: cover;
+  display: block;
+  border-radius: 325px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  background: url(https://raw.githubusercontent.com/maxrater/maxrater.github.io/master/img/Peni03LEZfAmeFYnOuA-AfXfmNPndO7JWE3rqUcqGmU.jpg) no-repeat;
+  -moz-transform:scale(0.2);
+  -webkit-transform:scale(0.2);
+  transform:scale(0.2);
+}
+
+.social a:hover {
+    background-color: black;
 }
