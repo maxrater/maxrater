@@ -1,8 +1,17 @@
+a {
+    color: #FFFFFF;
+}
+
 body {
-    background-image: url("paper.gif");
+  background-image: url("https://raw.githubusercontent.com/maxrater/maxrater.github.io/master/img/new_york_city_madness_wallpaper_hd-wide.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .name {
+  color: white;
   margin-top: 100px;
   font-family: AkzidenzGrotesk;
   text-align: center;
@@ -11,10 +20,12 @@ body {
 }
 
 .social {
+  margin-top: 14px;
   text-align: center;
   -moz-transform:scale(3);
   -webkit-transform:scale(3);
   transform:scale(3);
+  color: #FFFFFF;s
 }
 
 .picture img {
@@ -29,4 +40,3 @@ body {
 .social a:hover, .name p:hover, .picture p:hover  {
     background-color: red;
 }
-
