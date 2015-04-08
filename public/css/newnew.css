@@ -14,16 +14,7 @@
 }
 
 .picture {
-  margin-left: 750px;
-  margin-top: -430px;
-  text-align: center;
-  width: 650px;
-  height: 650px;
-  border-radius: 325px;
-  background: url(https://raw.githubusercontent.com/maxrater/maxrater.github.io/master/img/Peni03LEZfAmeFYnOuA-AfXfmNPndO7JWE3rqUcqGmU.jpg) no-repeat;
-  -moz-transform:scale(0.2);
-  -webkit-transform:scale(0.2);
-  transform:scale(0.2);
+
 }
 
 .social a:hover {
