@@ -1,7 +1,12 @@
 a {
-    color: #FFFFFF;
+    color: #01070D;
 }
 
+
+.navbar {
+
+  color: #01070D
+}
 body {
   background-image: url("https://raw.githubusercontent.com/maxrater/maxrater.github.io/master/img/new_york_city_madness_wallpaper_hd-wide.jpg");
   -webkit-background-size: cover;
