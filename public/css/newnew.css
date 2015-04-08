@@ -14,15 +14,13 @@
 }
 
 .picture img {
-  position: absolute;
-  -moz-transform:scale(0.1);
-  -webkit-transform:scale(0.1);
-  transform:scale(0.1);
-  margin-left: 750px;
-  margin-top: -468px;
+  position: relative;
+  -moz-transform: scale(1);
+  /* -webkit-transform: scale(1); */
+  /* transform: scale(1); */
+  max-width: 145px;
   border-radius: 50%;
 }
-
 
 .social a:hover, .name p:hover, .picture p:hover  {
     background-color: red;
