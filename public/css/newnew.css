@@ -7,6 +7,54 @@ a {
   color: #01070D
 }
 
+
+@media screen and (max-width: 950px) {
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("https://raw.githubusercontent.com/maxrater/maxrater.github.io/master/img/new_york_city_madness_wallpaper_hd-wide.jpg");
+  background-repeat:no-repeat;
+}
+
+.name {
+  color: white;
+  margin-top: 100px;
+  font-family: AkzidenzGrotesk;
+  text-align: center;
+  font-size: 100px;
+  opacity: 50px;
+}
+
+.social {
+  margin-top: 14px;
+  text-align: center;
+  -moz-transform:scale(3);
+  -webkit-transform:scale(3);
+  transform:scale(3);
+  color: #FFFFFF;s
+}
+
+.picture img {
+  position: relative;
+  -moz-transform: scale(1);
+  /* -webkit-transform: scale(1); */
+  /* transform: scale(1); */
+  max-width: 145px;
+  border-radius: 50%;
+}
+
+.social a:hover, .name p:hover, .picture h1:hover  {
+    background-color: red;
+    opacity: 0.6;
+}
+
+
+
+}
+
 @media screen and (max-width: 670px) {
 
 body {
@@ -52,3 +100,49 @@ body {
 
 }
 
+
+@media screen and (max-width: 565px) {
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: url("https://raw.githubusercontent.com/maxrater/maxrater.github.io/master/img/new_york_city_madness_wallpaper_hd-wide.jpg");
+  background-repeat:no-repeat;
+}
+
+.name {
+  color: white;
+  margin-top: 100px;
+  font-family: AkzidenzGrotesk;
+  text-align: center;
+  font-size: 100px;
+  opacity: 50px;
+}
+
+.social {
+  margin-top: 14px;
+  text-align: center;
+  -moz-transform:scale(3);
+  -webkit-transform:scale(3);
+  transform:scale(3);
+  color: #FFFFFF;s
+}
+
+.picture img {
+  position: relative;
+  -moz-transform: scale(1);
+  /* -webkit-transform: scale(1); */
+  /* transform: scale(1); */
+  max-width: 145px;
+  border-radius: 50%;
+}
+
+.social a:hover, .name p:hover, .picture h1:hover  {
+    background-color: red;
+    opacity: 0.6;
+}
+
+
+}
