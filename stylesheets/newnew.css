@@ -46,6 +46,8 @@ body {
 .social a:hover, .name p:hover, .picture h1:hover  {
     background-color: red;
     opacity: 0.6;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 570px) and (min-width: 376px) {
