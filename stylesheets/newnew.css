@@ -43,11 +43,17 @@ body {
   border-radius: 50%;
 }
 
-.social a:hover, .name p:hover, .picture h1:hover  {
+.social a:hover, .name p:hover {
     background-color: red;
     opacity: 0.6;
     font-weight: bold;
     text-decoration: none;
+}
+
+.picture h1:hover {
+    background-color: red;
+    opacity: 0.6;
+
 }
 
 @media screen and (max-width: 570px) and (min-width: 376px) {
