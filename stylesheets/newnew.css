@@ -7,6 +7,10 @@ a {
   color: #01070D
 }
 
+#error span {
+  animation: upper 11s linear infinite;
+}
+
 body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,7 +62,8 @@ div#load_screen > div#loading{
   color: #FFF;
   width: 120px;
   height: 24px;
-  margin: 300px auto;
+  margin-left: 250px;
+  margin-top: 150px;
 }
 
 .social a:hover, #picture h1:hover {
