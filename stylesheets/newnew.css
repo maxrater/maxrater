@@ -34,7 +34,7 @@ body {
   color: #FFFFFF;s
 }
 
-.picture img {
+#picture img {
   position: relative;
   -moz-transform: scale(1);
   /* -webkit-transform: scale(1); */
@@ -44,13 +44,25 @@ body {
 }
 
 
-.social a:hover, .name p:hover, .picture h1:hover {
+.social a:hover, #picture h1:hover {
     background-color: red;
     opacity: 0.6;
     font-weight: bold;
     text-decoration: none;
 }
 
+#picture h1:hover {
+    background-color: white;
+    opacity: 0.6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.name p:hover{
+    opacity: 0.6;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 
 @media screen and (max-width: 570px) and (min-width: 376px) {
@@ -107,7 +119,6 @@ body {
 
 }
 
-
 @media screen and (max-width: 620px) and (min-width: 571px)  {
 
 a {
@@ -161,4 +172,3 @@ body {
 }
 
 }
-
